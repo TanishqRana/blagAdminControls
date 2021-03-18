@@ -1,0 +1,200 @@
+:root {
+  --primary-color: rgb(230, 42, 9);
+  --dark-color: #141414;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-sarif;
+  -webkit-font-smoothing: antialised;
+  background: rgb(236, 234, 234);
+  color: #999;
+}
+nav {
+  position: absolute;
+  background: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+nav {
+  background: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.welcome {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+}
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: White;
+}
+.topnav a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: White;
+}
+.header-bottom {
+  position: absolute;
+  top: 4.8%;
+  width: 100%;
+  height: 70px;
+  background: #3a3939;
+  justify-content: center;
+  padding: 20px;
+}
+.header-1 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.header-2 {
+  position: absolute;
+  left: 15%;
+  top: 45%;
+  font-size: 1rem;
+}
+.create-content {
+  position: absolute;
+  left: 80%;
+  top: 40%;
+  outline: none;
+}
+.partiton {
+  position: absolute;
+  background: rgb(190, 39, 39);
+
+  height: 90vh;
+  width: 100%;
+}
+<nav class="topnav">
+      <span>AdminStrip</span>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#news">Pages</a>
+      <a href="#contact">Post</a>
+      <a href="#about">Users</a>
+      <div class="welcome">Welcome, Admin <a href="#">Logout</a></div>
+    </nav>
+    <header>
+      <div class="header-bottom">
+        <p class="header-1"><i class="fas fa-cog"></i> Dashboard</p>
+        <p class="header-2">Manage Your Site</p>
+        <section id="create content" name="content">
+          <p class="create-content">
+            <select id="content">
+              <option value="Create COntent">Create Content</option>
+              <option value="Check Previous">Check Previous Work</option>
+              <option value="Most Searched">Most Searched</option>
+            </select>
+          </p>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="partition">
+        <h1>heyyyyy</h1>
+        hey
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+      
+            <!--Right Side-->
+          <div class="col-md-7 col-md-offset-1"><div class="orange">Website Overview</div>
+            <div class="well overview text-center">
+                <div class="col-md-2 ">
+                    <div class="well icons ">
+                        <h3><i class="fas fa-user"></i>203</h3>Users
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 ">
+                    <div class="well icons">
+                        <h3><i class="fas fa-file-alt"></i>12</h3>Pages
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 ">
+                    <div class="well icons">
+                        <h3><i class="fas fa-pen-fancy"></i>33</h3>Posts
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 ">
+                    <div class="well icons">
+                        <h3><i class="fas fa-chart-bar"></i>12,334</h3>Visits
+                    </div>
+                </div>
+            </div>
+            <div class="well orange">Latest Users</div>
+            <div class="well">
+                    <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Joined</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td scope="row">Jill Smith</td>
+                                <td>jillsmith@gmail.com</td>
+                                <td>Dec 12.2018</td>
+                              </tr>
+                              <tr>
+                                <td scope="row">Eve Jackson</td>
+                                <td>evejackson@gmail.com</td>
+                                <td>Dec 13.2018</td>
+                              </tr>
+                              <tr>
+                                <td scope="row">Jhon Doe</td>
+                                <td>jhondoe@gmail.com</td>
+                                <td>Dec 13.2018</td>
+                              </tr>
+                              <tr>
+                                  <td scope="row">Mike Jhonson</td>
+                                  <td>mjhonson@gmail.com</td>
+                                  <td>Dec 15.2016</td>
+                              </tr>
+                            </tbody>
+                          </table>
+            </div>
+             
+        </div>

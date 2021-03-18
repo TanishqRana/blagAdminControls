@@ -1,0 +1,104 @@
+:root {
+  --primary-color: rgb(230, 42, 9);
+  --dark-color: #141414;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-sarif;
+  -webkit-font-smoothing: antialised;
+  background: rgb(236, 234, 234);
+  color: #999;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.orange {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: White;
+  text-decoration: none;
+}
+.nav a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: White;
+}
+
+.content {
+  background: rgb(63, 59, 59);
+  padding: 1rem;
+}
+.header-content-1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.header-content-2 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+#content {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 12px;
+}
+#partition {
+  margin-top: 10px;
+  padding: 1rem;
+  background: rgb(189, 183, 183);
+  margin-bottom: 20px;
+}
+.progress-bar {
+  background: #333333;
+  color: #fff;
+}
+.group-item {
+  position: relative;
+  align-items: right;
+  justify-content: right;
+  left: 70%;
+}
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer {
+  background: #333333;
+  padding: 4rem;
+}
+.icons {
+  background: rgb(224, 224, 224);
+}
+.filter {
+  width: 100%;
+  padding: 5px;
+  border: 0.5px solid #999;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+.del {
+  background: var(--primary-color);
+  color: #fff;
+  margin-left: 5px;
+}
